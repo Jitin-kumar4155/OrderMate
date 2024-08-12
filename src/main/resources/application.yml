@@ -1,0 +1,10 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: orders
+  data:
+    mongodb:
+      uri: mongodb+srv://jitin4155578:4155578@cluster0.loj1zhd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: OrderMate
